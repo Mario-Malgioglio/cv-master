@@ -6,7 +6,7 @@ import "./index.scss"
 const IndexPage = () => (
   <>
     <BasicLayout />
-    <h3>estamos en inicio</h3>
+    
     <Profile/>
   </>
 )
