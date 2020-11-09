@@ -1,0 +1,26 @@
+menu {
+  position: relative;
+  z-index: 10;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+
+    li {
+      padding: 30px 20px;
+      font-weight: bold;
+
+      a {
+        color: rgb(185, 167, 167);
+
+        &:hover {
+          color: #cedce2;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
