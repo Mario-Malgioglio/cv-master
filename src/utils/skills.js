@@ -1,4 +1,4 @@
-import buildModule from "react-skills-bars"
+//import buildModule from "react-skills-bars"
 
 export const frontendSkills = [
   { type: "Mercado", level: 95 },
@@ -14,7 +14,6 @@ export const fontendSkillsColors = {
   bar: "#3498db",
   title: {
     text: "#fff",
-    text: "#bold",
     background: "#99999",
   },
 }
@@ -34,9 +33,9 @@ export const backendSkillsColors = {
 }
 
 export const soSkills = [
-  { type: "MacOS", level: 100 },
-  { type: "Linux", level: 95 },
-  { type: "Windows", level: 95 },
+  { type: "Analidi tecnico", level: 100 },
+  { type: "Analidid Grafico", level: 95 },
+  // { type: "Windows", level: 95 },
 ]
 export const soSkillsColors = {
   bar: "#f09c00",
