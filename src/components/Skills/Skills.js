@@ -11,9 +11,38 @@ export default function Skills(props) {
     <div className="list-skills">
       <SkillBar
         skills={skills}
-        colors={colors}
+        colors = {{
+          "bar": {
+            "hue": 32,
+            "saturation": 50,
+            "level": {
+              "minimum": 30,
+              "maximum": 70
+            }
+          },
+          "title": {
+            "text": {
+              "hue": 45,
+              "saturation": {
+                "minimum": 30,
+                "maximum": 70
+              },
+              "level": 50
+            },
+            "background": {
+              "hue": 30,
+              "saturation": {
+                "minimum": 30,
+                "maximum": 70
+              },
+              "level": {
+                "minimum": 0,
+                "maximum": 50
+              }
+            }}}}
+          height={'15vh'}
         animationDelay={0}
-        animationDuration={1500}
+        animationDuration={3500}
       />
     </div>
   )
