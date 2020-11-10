@@ -1,8 +1,8 @@
 //import buildModule from "react-skills-bars"
 
 export const frontendSkills = [
-  { type: "Mercado", level: 95 },
-  { type: "Futuros", level: 95 },
+  { type: "Completa", level: 100 },
+  // { type: "Futuros", level: 95 },
   // { type: "CSS3", level: 50 },
   // { type: "Gatsby", level: 85 },
   // { type: "Webpack", level: 70 },
@@ -19,8 +19,8 @@ export const fontendSkillsColors = {
 }
 
 export const backendSkills = [
-  { type: "Trigo", level: 100 },
-  { type: "Maiz", level: 100 },
+  { type: "Completa", level: 100 }
+  
   // { type: "PHP", level: 60 },
   // { type: "Python", level: 85 },
 ]
@@ -33,8 +33,8 @@ export const backendSkillsColors = {
 }
 
 export const soSkills = [
-  { type: "Analisis tecnico", level: 100 },
-  { type: "Analisis de  Grafico", level: 95 },
+  { type: "Completa", level: 100 },
+  
   // { type: "Windows", level: 95 },
 ]
 export const soSkillsColors = {

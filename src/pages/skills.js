@@ -22,15 +22,16 @@ export default function Index() {
       <Container fluid>
         <BasicLayout className='cover-full' />
         <div className="skills__block">
-          <h3>Mercados de inversion</h3>
+          <h4> Bolsa de comercio de Rosario: 
+ Especialización en trading de derivados modulos I , II , y III </h4>
           <Skills skills={frontendSkills} colors={fontendSkillsColors} />
         </div>
         <div className="skills__block">
-          <h2>Cereales</h2>
+          <h4> Bolsa de comercio de Rosario: programa de formación.<br></br> </h4>
           <Skills skills={backendSkills} colors={backendSkillsColors} />
         </div>
         <div className="skills__block">
-          <h2>Sistemas predictivos</h2>
+          <h4>Bolsa de comercio de Rosario: investigación en mejoras tecnológicas y técnicas para el sector agrícola Argentino en los ultimos 50 años</h4>
           <Skills skills={soSkills} colors={soSkillsColors} />
         </div>
       </Container>

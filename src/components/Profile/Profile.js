@@ -36,7 +36,7 @@ export default function Profile() {
           <Col xs={12} md={8} className="info__data">
             {/* <span>¡HOLA!</span> */}
             <p>Stefano Malgioglio</p>
-            <p>Lic. en Economía</p>
+            <p>Licenciado en Economía</p>
             <hr />
             <div className="more-info">
               {data.map((item, index) => (

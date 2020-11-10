@@ -5,21 +5,14 @@ import "./Skills.scss"
 const SkillBar = loadable(() => import("react-skills-bars"))
 
 export default function Skills(props) {
-  const { skills, colors } = props
+  const { skills } = props
 
   return (
     <div className="list-skills">
       <SkillBar
         skills={skills}
         colors = {{
-          "bar": {
-            "hue": 32,
-            "saturation": 50,
-            "level": {
-              "minimum": 30,
-              "maximum": 70
-            }
-          },
+          "bar": "#3498db",
           "title": {
             "text": {
               "hue": 45,
@@ -40,7 +33,7 @@ export default function Skills(props) {
                 "maximum": 50
               }
             }}}}
-          height={'15vh'}
+          height={'5vh'}
         animationDelay={0}
         animationDuration={3500}
       />
