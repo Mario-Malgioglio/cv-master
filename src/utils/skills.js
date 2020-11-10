@@ -33,8 +33,8 @@ export const backendSkillsColors = {
 }
 
 export const soSkills = [
-  { type: "Analidi tecnico", level: 100 },
-  { type: "Analidid Grafico", level: 95 },
+  { type: "Analisis tecnico", level: 100 },
+  { type: "Analisis de  Grafico", level: 95 },
   // { type: "Windows", level: 95 },
 ]
 export const soSkillsColors = {

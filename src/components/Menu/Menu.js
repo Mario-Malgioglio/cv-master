@@ -7,12 +7,13 @@ import "../Menu/Menu.scss"
 
 
 export default function Menu(props) {
-//   const { menuColor } = props
+   const { menuColor } = props
 // console.log(menuColor)
   return (
-    <header
+     <header
       className="menu"
-      //  style={{ backgroundColor: menu|| "transparent" }}
+        style={{ backgroundColor: menuColor|| "transparent" }}
+        //  style={{ backgroundColor: "black" || "transparent"}}
     >
       <Container >
         <ul >
@@ -27,6 +28,6 @@ export default function Menu(props) {
           </li>
         </ul>
       </Container>
-   </header>
+    </header>
   )
 }

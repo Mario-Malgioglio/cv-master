@@ -1,6 +1,7 @@
 import React from "react"
-import { Container } from "react-bootstrap"
+//import { Container } from "react-bootstrap"
 import BasicLayout from "../components/layout/BasicLayout"
+import Container from 'react-bootstrap/Container'
 import Skills from "../components/Skills/Skills"
 import {
   frontendSkills,
@@ -18,10 +19,10 @@ export default function Index() {
   return (
     // <BasicLayout menuColor="#000"></BasicLayout>
     
-      <Container className=".skillbar">
+      <Container fluid>
         <BasicLayout className='cover-full' />
         <div className="skills__block">
-          <h2>Mercados de inversion</h2>
+          <h3>Mercados de inversion</h3>
           <Skills skills={frontendSkills} colors={fontendSkillsColors} />
         </div>
         <div className="skills__block">
