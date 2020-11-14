@@ -22,11 +22,9 @@ export default function Menu(props) {
           </li>
           <li>
             <Link to="/skills">Skills</Link>
+
           </li>
-          <li>
-            <Link to="/cv">CV</Link>
-            
-          </li>
+          
         </ul>
       </Container>
     </header>

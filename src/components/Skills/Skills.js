@@ -33,9 +33,9 @@ export default function Skills(props) {
                 "maximum": 50
               }
             }}}}
-          height={'5vh'}
+          height={'4vh'}
         animationDelay={0}
-        animationDuration={3500}
+        animationDuration={1000}
       />
     </div>
   )

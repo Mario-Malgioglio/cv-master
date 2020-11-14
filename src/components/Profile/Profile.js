@@ -2,6 +2,8 @@ import React from "react"
 import { Container, Row, Col, Image } from "react-bootstrap"
 //import Social from "./Social"
 import profileImage from "../../images/stefano-bolsa.jpg"
+import cv from "../../images/cv1.jpg"
+import CV from '../CV/CV-MalgioglioStefano.pdf'
 import "./Profile.scss"
 
 const data = [
@@ -43,8 +45,17 @@ export default function Profile() {
                 <div key={index} className="item">
                   <p>{item.title}</p>
                   <p>{item.info}</p>
+                
                 </div>
               ))}
+              <Col xs={12} md={4}>
+            <a href={CV} target="_blank"> 
+            <Image src={cv} fluid />
+            </a>
+          </Col>
+
+
+
             </div>
           </Col>
         </Row>
